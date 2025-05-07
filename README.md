@@ -27,6 +27,6 @@ ML model to predict box office and IMDb ratings using R.
 
 ## 📫 Contact Me
 - ✉️ Email: sreethika@example.com  
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-linkedin)  
-- 💻 [GitHub](https://github.com/sreethika)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/sreethikapadala)  
+- 💻 [GitHub](https://github.com/SreethikaP)  
 
