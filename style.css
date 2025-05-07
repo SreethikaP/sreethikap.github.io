@@ -41,11 +41,15 @@ a:hover {
 }
 
 .profile-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  background-image: url('profile-bg.jpg'); /* Update with your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px; /* Adjust padding to give space around the content */
+  border-radius: 10px; /* Optional, if you want rounded corners */
+  color: #fff; /* Ensure text is visible over the background */
 }
+
 
 .profile-img {
   width: 150px;
