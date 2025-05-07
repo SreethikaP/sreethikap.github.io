@@ -1,40 +1,15 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
+  background: #f0f4f8;
   color: #333;
 }
 
-header {
-  text-align: center;
-  padding: 2rem;
-  background-color: #0d6efd;
-  color: white;
-}
-
-.profile-img {
-  width: 150px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
-
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  margin-bottom: 1rem;
+h1, h2 {
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
 }
 
 a {
@@ -42,8 +17,105 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header & Profile */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d6efd;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.bio h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.bio p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Projects Section */
+.projects {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Resume Section */
+.resume {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Contact Section */
+.contact {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
   background: #e9ecef;
+  color: #777;
 }
+
+footer p {
+  margin: 0;
+}
+
