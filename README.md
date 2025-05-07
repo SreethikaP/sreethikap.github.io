@@ -58,7 +58,7 @@ An end-to-end threat detection pipeline using full MLOps lifecycle and AWS deplo
 ---
 
 ## 📫 Contact Me
-- ✉️ Email: padalasreethika@gmail.com  
+- ✉️ padalasreethika@gmail.com  
 - 💼 [LinkedIn](https://www.linkedin.com/in/sreethikapadala)  
 - 💻 [GitHub](https://github.com/SreethikaP) 
 ---
