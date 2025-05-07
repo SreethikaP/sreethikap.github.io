@@ -7,14 +7,16 @@
 
 ## 🚀 Projects
 
-### 🎵 [Song Recommendation System](https://github.com/SreethikaP/song-recommendation)
+### 🎵 [Song Recommendation System](https://github.com/SreethikaP/Song-Recommendation-System)
 A music recommender using NLP and Hugging Face.  
 **Skills:** Python, Transformers, Streamlit, MLflow
 
+### 🎬 [Movie Revenue & IMDb Predictor](https://github.com/SreethikaP/Movie-Revenue-Prediction)
+ML model to predict box office and IMDb ratings using R.  
+**Skills:** R, Plumber, Shiny, Regression
 ### 🎬 [Movie Revenue & IMDb Predictor](https://github.com/SreethikaP/movie-predictor)
 ML model to predict box office and IMDb ratings using R.  
 **Skills:** R, Plumber, Shiny, Regression
-
 ---
 
 ## 🛠 Skills
